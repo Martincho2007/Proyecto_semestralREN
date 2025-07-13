@@ -369,6 +369,13 @@ screen main_menu():
 
             text "[config.name!t]":
                 style "main_menu_title"
+                color "#ffffff"
+            xpos 0.5
+            ypos 0.15
+            xanchor 0.5
+            yanchor 0.5
+            
+            
 
             text "[config.version]":
                 style "main_menu_version"
@@ -1612,3 +1619,4 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 600
+    
